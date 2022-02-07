@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@300;400&family=Murecho:wght@300&family=Nunito:wght@700&family=Oswald:wght@676&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+
+
+
+    font-weight: 300;
+}
+html{
+    font-size: 68.5%;
+}
+.main-div{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: #ffca3a;
+}
+.inner-div{
+    width: 40vw;
+    background-color: #fff;
+    padding: 3rem 5rem;
+    border-radius: 1em;
+    box-shadow: 0 1rem 1rem -0.7rem rgba(0, 0, 0, 0.3);
+}
+.inner-div h2{
+    font-size: 3.5rem;
+    font-weight: 400;
+    margin-top: 1.5rem;  
+    margin: 1rem 0 4rem 0;
+}
+.inner-div li{
+    font-size: 1.6rem;
+    margin-top: 1.5rem;
+    list-style: none;
+}
+input{
+    cursor: pointer;
+}
+#showScore{
+    background-color: #ffca3a;
+    margin-top: 3rem;
+    padding: 3rem 4rem;
+    box-shadow: 0 1rem 1rem --0.7rem rgba(0, 0, 0, 0.4);
+}
+.scorearea{
+    display: none;
+}
+#showScore .btn {
+    font-size: 1.5rem;
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+    background-color: rgba(0, 57, 212, 0.3);
+    color: #fff;
+
+}
+#showScore h3 {
+    font-size: 3rem;
+    text-align: center;
+}
